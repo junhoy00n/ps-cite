@@ -1,0 +1,122 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-break: keep-all;
+}
+
+/* Body styles */
+body, html {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+.header {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-image: url("https://i.pinimg.com/736x/be/78/05/be7805ef2512cd25bfcdec9e24ae8452.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay h2, .overlay h3 {
+    margin: 10px 0;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: justify;
+}
+
+/* Biography section styles */
+.bio-content {
+    overflow: hidden;
+}
+
+.bio-content img {
+    float: left;
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+
+.bio-text {
+    flex: 1;
+}
+
+.topJournal {
+    color: blue;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #333;
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: black;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    main {
+        margin: 1rem;
+        padding: 0.5rem;
+    }
+
+    .bio-photo {
+        float: left;
+    }
+
+    .bio-text {
+        margin-top: 20px;
+    }
+}
