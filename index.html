@@ -7,191 +7,142 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="overlay">
-            <h2>JunHo Yoon, Ph.D. Student</h2>
-            <h3>Intelligent Information Processing Lab</h3>
+    <header>
+        <div class="container">
+            <h1>JunHo Yoon, Ph.D. Student</h1>
+            <p>Intelligent Information Processing Lab</p>
         </div>
     </header>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="#biography">Biography</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#sci-publication">SCI(E) Publication</a></li>
+            <li><a href="#conference">Conference</a></li>
+            <li><a href="#award">Award and Honor</a></li>
+            <li><a href="#patent">Patent</a></li>
+            <li><a href="#lecture">Lecture</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
     <main>
-        <section id="biography">
+        <section id="biography" class="section">
             <h2>BIOGRAPHY</h2>
-            <div class="bio-content">
+            <div class="biography">
                 <img src="profile.jpg" alt="JunHo Yoon">
                 <p>JunHo Yoon received the B.S., M.S. degree in computer engineering from Gachon University, in 2022, 2023. He is currently pursuing a Ph.D. in computer engineering from Gachon University. His research interest includes Multi-modal Artificial Intelligence.</p>
             </div>
         </section>
-        <section id="education">
+
+        <section id="education" class="section">
             <h2>EDUCATION</h2>
             <ul>
                 <li><strong>Ph.D. in Computer Engineering</strong>, Gachon University, Sep. 2023 ~ </li>
-                <li>
-                    <strong>M.S. in Computer Engineering</strong>, Gachon University, Mar. 2022 ~ Aug. 2023
-                    <br><strong>Thesis:</strong> A Research on Multi-modal Learning for Efficient DeepFake Detection
+                <li><strong>M.S. in Computer Engineering</strong>, Gachon University, Mar. 2022 ~ Aug. 2023
+                    <br><small><strong>Thesis:</strong> A Research on Multi-modal Learning for Efficient DeepFake Detection</small>
                 </li>
                 <li><strong>B.S. in Computer Engineering</strong>, Gachon University, Mar. 2016 ~ Feb. 2022</li>
             </ul>
         </section>
-        <section id="experience">
+
+        <section id="experience" class="section">
             <h2>EXPERIENCE</h2>
             <ul>
-                <li><strong>Lecturer</strong> - Department of AI, Catholic University
-                    <br>Sep. 2023 ~ Aug. 2024
-                </li>
-                <li><strong>SCI(E) Journal Reviewer</strong> - Scientific Reports, IEEE Access, Expert Systems
-                </li>
+                <li><strong>Lecturer</strong> - Department of AI, Catholic University<br>Sep. 2023 ~ Aug. 2024</li>
+                <li><strong>SCI(E) Journal Reviewer</strong> - Scientific Reports, IEEE Access, Expert Systems</li>
+                <li><strong>Program Committee</strong> - ACM SAC 2024</li>
             </ul>
         </section>
-        <section id="project">
+
+        <section id="project" class="section">
             <h2>PROJECT</h2>
             <ul>
-                <li><strong>[PI]</strong> Research on Multimodal Interaction for Explainable Disinformation Detection
-                    <br>MOE | NRF, Sep. 2024 ~ Aug. 2026
-                    <br><small>Basic Science Research Program through the National Research Foundation of Korea(NRF) funded by the Ministry of Education
-</small>
+                <li><span class="toggle-box">PI</span> Research on Multimodal Interaction for Explainable Disinformation Detection
+                    <br>MOE | NRF, Sep. 2024 ~ Aug. 2026<br>
+                    <small>Basic Science Research Program through the National Research Foundation of Korea(NRF) funded by the Ministry of Education</small>
                 </li>
             </ul>
         </section>
-        <section id="sci-publication">
+
+        <section id="sci-publication" class="section">
             <h2>SCI(E) PUBLICATION</h2>
             <ul>
                 <h3>Submit or Revision</h3>
-                <li>
-                    [5] Ziyang Gong, <u>JunHo Yoon</u>, Chang Choi,
-                    "The Multi-Channel Feature Fusion Model for Epilepsy Prediction Based on Attention Mechanism",
-                    TBD,
-                    <strong><a href="#">[Submit]</a><br>
-                        <small>
-                            Co-Author
-                        </small>
-                    </strong>
+                <li><span class="toggle-box">5</span> Ziyang Gong, <u>JunHo Yoon</u>, Chang Choi, "The Multi-Channel Feature Fusion Model for Epilepsy Prediction Based on Attention Mechanism", TBD
+                    <a href="" class="button">[Submit]</a>
+                    <br><span class="highlight-box highlight-q4">Co-Author</span>
                 </li>
                 <h3>Accept or Online Publish</h3>
-                <li>
-                </li>
+                <li></li>
                 <h3>2024</h3>
-                <li>
-                    [4] MyeongHoe Lee, <u>JunHo Yoon</u>, Chang Choi,
-                    "Adversarial attack vulnerability for multi-biometric authentication system",
-                    Expert Systems,
-                    Oct. 2024
-                    <strong><a href="https://doi.org/10.1111/exsy.13655">[DOI]</a><br>
-                        <small>
-                            First Author, <span> Q2, IF: 3.0 (Top 28.1%)</span>
-                        </small>
-                    </strong>
+                <li><span class="toggle-box">4</span> MyeongHoe Lee, <u>JunHo Yoon</u>, Chang Choi, "Adversarial attack vulnerability for multi-biometric authentication system", Expert Systems, Oct. 2024
+                    <a href="https://doi.org/10.1111/exsy.13655" class="button">[DOI]</a>
+                    <br><span class="highlight-box highlight-q2">First Author, Q2, IF: 3.0 (Top 28.1%)</span>
                 </li>
-                <li>
-                    [3] <u>JunHo Yoon</u>, Angel Panizo-LLedot, David Camacho, Chang Choi,
-                    "Triple-modality interaction for deepfake detection on zero-shot identity",
-                    Information Fusion,
-                    Sep. 2024
-                    <strong><a href="https://doi.org/10.1016/j.inffus.2024.102424">[DOI]</a><br>
-                        <small>
-                            First Author, <span class="topJournal"> Q1, IF: 14.8 (Top 1.0%)</span>
-                        </small>
-                    </strong>
+                <li><span class="toggle-box">3</span> <u>JunHo Yoon</u>, Angel Panizo-LLedot, David Camacho, Chang Choi, "Triple-modality interaction for deepfake detection on zero-shot identity", Information Fusion, Sep. 2024
+                    <a href="https://doi.org/10.1016/j.inffus.2024.102424" class="button">[DOI]</a>
+                    <br><span class="highlight-box highlight-q1">First Author, Q1, IF: 14.8 (Top 1.0%)</span>
                 </li>
                 <h3>2023</h3>
-                <li>
-                    [2] <u>JunHo Yoon</u>, Gyuho Choi, Chang Choi,
-                    "Multimedia analysis of robustly optimized multimodal transformer based on vision and language co-learning",
-                    Information Fusion,
-                    Dec. 2023
-                    <strong><a href="https://doi.org/10.1016/j.inffus.2023.101922">[DOI]</a><br>
-                        <small>
-                            First Author, <span class="topJournal">Q1, IF: 14.8 (Top 1.0%)</span>
-                        </small>
-                    </strong>
+                <li><span class="toggle-box">2</span> <u>JunHo Yoon</u>, Gyuho Choi, Chang Choi, "Multimedia analysis of robustly optimized multimodal transformer based on vision and language co-learning", Information Fusion, Dec. 2023
+                    <a href="https://doi.org/10.1016/j.inffus.2023.101922" class="button">[DOI]</a>
+                    <br><span class="highlight-box highlight-q1">First Author, Q1, IF: 14.8 (Top 1.0%)</span>
                 </li>
-                <li>
-                    [1] <u>JunHo Yoon</u>, Chang Choi,
-                    "Real-Time Context-Aware Recommendation System for Tourism",
-                    Sensors,
-                    Apr. 2023
-                    <strong><a href="https://doi.org/10.3390/s23073679">[DOI]</a><br>
-                        <small>
-                            First Author, <span>Q2, IF: 3.4 (Top 30.9%)</span>
-                        </small>
-                    </strong>
+                <li><span class="toggle-box">1</span> <u>JunHo Yoon</u>, Chang Choi, "Real-Time Context-Aware Recommendation System for Tourism", Sensors, Apr. 2023
+                    <a href="https://doi.org/10.3390/s23073679" class="button">[DOI]</a>
+                    <br><span class="highlight-box highlight-q2">First Author, Q2, IF: 3.4 (Top 30.9%)</span>
                 </li>
             </ul>
         </section>
-        <section id="conference">
+
+        <section id="conference" class="section">
             <h2>CONFERENCE</h2>
             <ul>
                 <h3>Top Conference</h3>
-                <li>
-                    [2] <u>JunHo Yoon</u>, Kiho Lim, Chang Choi,
-                    "Robustly Optimized Multimedia Local and Global Context Analysis at Multi-modal Balance",
-                    ACM Symposium on Applied Computing (ACM SAC),
-                    Mar. 2025
-                    <strong>
-                        <a href="#">[Accept]</a>
-                    </strong>
+                <li><span class="toggle-box">2</span> <u>JunHo Yoon</u>, Kiho Lim, Chang Choi, "Robustly Optimized Multimedia Local and Global Context Analysis at Multi-modal Balance", ACM Symposium on Applied Computing (ACM SAC), Mar. 2025
+                    <a href="" class="button">[ACCEPT]</a>
                 </li>
-                <li>
-                    [1] <u>JunHo Yoon</u>, Christian Esposito, Chang Choi,
-                    "Quad-Biometrics for Few-shot User Identification",
-                    ACM Symposium on Applied Computing (ACM SAC),
-                    Apr. 2024
-                    <strong>
-                        <a href="https://doi.org/10.1145/3605098.3636027">[DOI]</a>
-                    </strong>
+                <li><span class="toggle-box">1</span> <u>JunHo Yoon</u>, Christian Esposito, Chang Choi, "Quad-Biometrics for Few-shot User Identification", ACM Symposium on Applied Computing (ACM SAC), Apr. 2024
+                    <a href="" class="button">[ACCEPT]</a>
                 </li>
                 <h3>International Conference</h3>
                 <li>
-                    [7] <u>JunHo Yoon</u>, NamGyu Jung, Chang Choi,
-                    "Vision-Audio based Deepfake Detection according to Multi-modal Learning",
-                    ACM Research in Adaptive and Convergent Systems (ACM RACS),
-                    Nov. 2024
+                    <span class="toggle-box">7</span> <u>JunHo Yoon</u>, NamGyu Jung, Chang Choi, "Vision-Audio based Deepfake Detection according to Multi-modal Learning", ACM Research in Adaptive and Convergent Systems (ACM RACS), Nov. 2024
                 </li>
                 <li>
-                    [6] NamGyu Jung, <u>JunHo Yoon</u>, SaeBom Lee, YuRi Lim, Chang Choi,
-                    "Necessity of Causal Insights in Dynamic Scene Graphs for Metaverse Game",
-                    Electronics, Electrical Engineering, Computer Science (EEECS),
-                    Jun. 2024
+                    <span class="toggle-box">6</span> NamGyu Jung, <u>JunHo Yoon</u>, SaeBom Lee, YuRi Lim, Chang Choi, "Necessity of Causal Insights in Dynamic Scene Graphs for Metaverse Game", Electronics, Electrical Engineering, Computer Science (EEECS), Jun. 2024
                 </li>
                 <li>
-                    [5] <u>JunHo Yoon</u>, Sokjoon Lee, Chang Choi,
-                    "Few-shot and Multi-biometrics for Management Identification in Energy Industry",
-                    International Conference on Mobile Internet Security (MobiSec),
-                    Dec. 2023
+                    <span class="toggle-box">5</span> <u>JunHo Yoon</u>, Sokjoon Lee, Chang Choi, "Few-shot and Multi-biometrics for Management Identification in Energy Industry", International Conference on Mobile Internet Security (MobiSec), Dec. 2023
                 </li>
                 <li>
-                    [4] SaeBom Lee, <u>JunHo Yoon</u>, Chang Choi,
-                    "Vulnerability analysis of neural networks for signal classification in energy environments",
-                    International Conference on Smart Media and Applications (SMA),
-                    Dec. 2023
+                    <span class="toggle-box">4</span> SaeBom Lee, <u>JunHo Yoon</u>, Chang Choi, "Vulnerability analysis of neural networks for signal classification in energy environments", International Conference on Smart Media and Applications (SMA), Dec. 2023
                 </li>
                 <li>
-                    [3] NamGyu Jung, <u>JunHo Yoon</u>, SaeBom Lee, Pankoo Kim, Kiho Lim, Chang Choi,
-                    "News Category Classification via Multimodal Fusion Method",
-                    ACM Research in Adaptive and Convergent Systems (ACM RACS),
-                    Aug. 2023
+                    <span class="toggle-box">3</span> NamGyu Jung, <u>JunHo Yoon</u>, SaeBom Lee, Pankoo Kim, Kiho Lim, Chang Choi, "News Category Classification via Multimodal Fusion Method", ACM Research in Adaptive and Convergent Systems (ACM RACS), Aug. 2023
                 </li>
                 <li>
-                    [2] <u>JunHo Yoon</u>, Jin-A Choi, Kiho Lim, Chang Choi,
-                    "Classification of Tourist Activity Pattern Using Electric Vehicle Driving Data",
-                    International Conference on Next Generation Computing (ICNGC),
-                    Nov. 2021
+                    <span class="toggle-box">2</span> <u>JunHo Yoon</u>, Jin-A Choi, Kiho Lim, Chang Choi, "Classification of Tourist Activity Pattern Using Electric Vehicle Driving Data", International Conference on Next Generation Computing (ICNGC), Nov. 2021
                 </li>
                 <li>
-                    [1] NamGyu Jung, <u>JunHo Yoon</u>, Kazadi Vially Mutombo, Seungyeon Lee, Jusuk Lee, Chang Choi,
-                    "Efficient data processing method for edge intelligence based on SVM",
-                    ACM Intelligent Computing and its Emerging Applications (ACM ICEA),
-                    Dec. 2020
+                    <span class="toggle-box">1</span> NamGyu Jung, <u>JunHo Yoon</u>, Kazadi Vially Mutombo, Seungyeon Lee, Jusuk Lee, Chang Choi, "Efficient data processing method for edge intelligence based on SVM", ACM Intelligent Computing and its Emerging Applications (ACM ICEA), Dec. 2020
                 </li>
             </ul>
         </section>
-        <section id="award">
+
+        <section id="award" class="section">
             <h2>AWARD AND HONOR</h2>
             <ul>
                 <li><strong>STUDENT AWARD</strong>, ACM RACS 2024</li>
                 <li><strong>EXCELLENT POSTER AWARD</strong>, ICNGC 2021</li>
             </ul>
         </section>
-        <section id="patent">
+
+        <section id="patent" class="section">
             <h2>PATENT</h2>
             <ul>
                 <h3>Registration</h3>
@@ -205,25 +156,29 @@
                 </li>
             </ul>
         </section>
-        <section id="lecture">
+
+        <section id="lecture" class="section">
             <h2>LECTURE</h2>
             <ul>
                 <li><strong>Object-Oriented Programming</strong>, 2024-01</li>
                 <li><strong>Web Programming</strong>, 2023-02</li>
             </ul>
         </section>
-        <section id="contact">
+
+        <section id="contact" class="section">
             <h2>CONTACT</h2>
             <ul>
                 <li><strong>E-mail:</strong> junho6257@gachon.ac.kr, jhyoon6257@gmail.com</li>
                 <li><strong>ORCID:</strong> 0000-0003-4899-3497</li>
-                <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=q3dypR8AAAAJ&hl=ko">scholar.google.com</a></li>
-                <li><strong>Lab:</strong> <a href="http://iiplab.gachon.ac.kr/">IIP Lab, Gachon University</a></li>
+                <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=q3dypR8AAAAJ&hl=ko" class="button">scholar.google.com</a></li>
+                <li><strong>Lab:</strong> <a href="http://iiplab.gachon.ac.kr/" class="button">IIP Lab, Gachon University</a></li>
             </ul>
         </section>
+
     </main>
+
     <footer>
-        <p>&copy; 2024 JunHo Yoon. All rights reserved.</p>
+        <p>&copy; 2024 - 2025 JunHo Yoon. All rights reserved.</p>
     </footer>
 </body>
 </html>
